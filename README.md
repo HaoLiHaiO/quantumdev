@@ -38,3 +38,7 @@ Text is publisher-provided excerpt, not an AI summary. Sources are English; tran
 
 [Linear project](https://linear.app/alexagentic/project/quantumdev-7a5e7506cddf)
 
+
+## Theme
+
+Use the header button to switch light/dark. The explicit preference is stored under `quantumdev-theme` in localStorage. Without a valid preference, the site follows the system theme. The initial theme is applied before the page paints. If storage is blocked, switching still works for the current visit.
