@@ -65,4 +65,5 @@ No login, payment or advertising implementation in the first prototype.
 ## Current baseline
 Repository inspected: empty, default branch main, write access confirmed.
 README initialized to establish a base commit.
-Application, sources, ingestion and preview have not yet been implemented.
+Prototype implementation: Next.js, three verified English feeds, persisted publisher excerpts, category filters and search. AI summaries, scheduled refresh and hosted preview remain future work.
+

@@ -1,0 +1,26 @@
+schema_version: 1
+sources:
+  - id: github-blog
+    name: GitHub Blog
+    website: https://github.blog
+    feed_url: https://github.blog/feed/
+    source_language: en
+    topics: [engineering]
+    kind: news
+    enabled: true
+  - id: hugging-face
+    name: Hugging Face
+    website: https://huggingface.co/blog
+    feed_url: https://huggingface.co/blog/feed.xml
+    source_language: en
+    topics: [ai]
+    kind: news
+    enabled: true
+  - id: cloudflare
+    name: Cloudflare Blog
+    website: https://blog.cloudflare.com
+    feed_url: https://blog.cloudflare.com/rss/
+    source_language: en
+    topics: [infrastructure]
+    kind: news
+    enabled: true
