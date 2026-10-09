@@ -1,6 +1,8 @@
 import {readFile,writeFile,rename,mkdir} from 'node:fs/promises';
 import {registry,collectSource,mergeArticles} from '../lib/feeds.mjs';
 
+import {scopeArticles} from '../lib/topics.mjs';
+
 const sources=registry(await readFile(new URL('../config/sources.yaml',import.meta.url),'utf8')).filter(source=>source.enabled);
 const directory=new URL('../data/',import.meta.url); await mkdir(directory,{recursive:true});
 const target=new URL('articles.json',directory);
@@ -13,7 +15,7 @@ for(const source of sources) {
   catch(error){health.push({id:source.id,name:source.name,status:'error',error:error.message,last_success_at:last?.last_success_at || null});}
 }
 const now=new Date().toISOString();
-const dataset={updated_at:successes?now:previous.updated_at || null, attempted_at:now, articles:mergeArticles(previous.articles,incoming).slice(0,500),sources:health};
+const dataset={updated_at:successes?now:previous.updated_at || null, attempted_at:now, articles:scopeArticles(mergeArticles(previous.articles,incoming),sources).slice(0,500),sources:health};
 const temp=new URL('articles.json.tmp',directory); await writeFile(temp,JSON.stringify(dataset,null,2)+'\n'); await rename(temp,target);
 console.log(JSON.stringify({articles:dataset.articles.length,sources:health},null,2));
 if(!successes) process.exitCode=1;
