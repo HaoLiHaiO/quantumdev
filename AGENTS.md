@@ -52,3 +52,5 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 <!-- END:nextjs-agent-rules -->
 
 Editorial scope: Quantum Programming, Software Engineering, Agentic Engineering. Infrastructure excluded. `npm run collect` applies the same classification to incoming and retained articles.
+
+Collector regression checks include total-failure retention and registry-driven quantum classification (`tests/dataset.test.mjs`, `tests/topics.test.mjs`).
