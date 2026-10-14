@@ -28,7 +28,7 @@ Run collection before building: the dataset is prerendered, so a refreshed datas
 
 ## Sources
 
-Edit only config/sources.yaml. Publisher language is separate from future display languages. Current endpoints (GitHub Blog, Hugging Face and Cloudflare) were fetched and parsed successfully on 2026-10-08.
+Edit only config/sources.yaml. Publisher language is separate from future display languages. Current endpoints (GitHub Blog, Hugging Face and Qiskit Releases) were fetched and parsed successfully on 2026-10-09.
 
 The collector limits feed bytes/time/items, isolates failures, deduplicates stable IDs and URLs and atomically writes data/articles.json. Total failure keeps previous articles and reports source errors.
 
@@ -42,3 +42,6 @@ Text is publisher-provided excerpt, not an AI summary. Sources are English; tran
 ## Theme
 
 Use the header button to switch light/dark. The explicit preference is stored under `quantumdev-theme` in localStorage. Without a valid preference, the site follows the system theme. The initial theme is applied before the page paints. If storage is blocked, switching still works for the current visit.
+
+## Categories
+Quantum Programming, Software Engineering and Agentic Engineering. Infrastructure is excluded. General Hugging Face ML posts are filtered out; agent-related content is selected by explicit keywords. Qiskit releases Atom was verified on 2026-10-09.

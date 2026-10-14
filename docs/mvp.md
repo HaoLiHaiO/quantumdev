@@ -67,3 +67,6 @@ Repository inspected: empty, default branch main, write access confirmed.
 README initialized to establish a base commit.
 Prototype implementation: Next.js, three verified English feeds, persisted publisher excerpts, category filters and search. AI summaries, scheduled refresh and hosted preview remain future work.
 
+
+## Editorial scope
+Quantum Programming, Software Engineering and Agentic Engineering only. Infrastructure is excluded for now. Qiskit releases populate quantum programming; GitHub covers software development and agents; Hugging Face is filtered for agent-related articles. Keyword classification is conservative and may miss relevant articles.

@@ -5,7 +5,7 @@ sources:
     website: https://github.blog
     feed_url: https://github.blog/feed/
     source_language: en
-    topics: [engineering]
+    topics: [software-engineering]
     kind: news
     enabled: true
   - id: hugging-face
@@ -13,14 +13,14 @@ sources:
     website: https://huggingface.co/blog
     feed_url: https://huggingface.co/blog/feed.xml
     source_language: en
-    topics: [ai]
+    topics: [agentic-engineering]
     kind: news
     enabled: true
-  - id: cloudflare
-    name: Cloudflare Blog
-    website: https://blog.cloudflare.com
-    feed_url: https://blog.cloudflare.com/rss/
+  - id: qiskit
+    name: Qiskit Releases
+    website: https://github.com/Qiskit/qiskit
+    feed_url: https://github.com/Qiskit/qiskit/releases.atom
     source_language: en
-    topics: [infrastructure]
+    topics: [quantum-programming]
     kind: news
     enabled: true

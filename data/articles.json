@@ -1,7 +1,23 @@
 {
-  "updated_at": "2026-10-08T09:33:25.099Z",
-  "attempted_at": "2026-10-08T09:33:25.099Z",
+  "updated_at": "2026-10-09T10:26:26.281Z",
+  "attempted_at": "2026-10-09T10:26:26.281Z",
   "articles": [
+    {
+      "id": "400f93c3a2faae18adc1a3b7",
+      "feed_id": "https://github.blog/?p=99392",
+      "source_id": "github-blog",
+      "source_name": "GitHub Blog",
+      "original_title": "How one bug bounty researcher chooses the features they investigate",
+      "original_url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
+      "source_language": "en",
+      "topics": [
+        "software-engineering"
+      ],
+      "kind": "news",
+      "published_at": "2026-10-08T17:02:52.000Z",
+      "collected_at": "2026-10-09T10:26:15.624Z",
+      "excerpt": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub. The post How one bug bounty researcher chooses the features they investigate appeared first on The GitHub Blog."
+    },
     {
       "id": "c6fb2b313984d9d24e982a57",
       "feed_id": "https://github.blog/?p=99310",
@@ -11,60 +27,12 @@
       "original_url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
       "source_language": "en",
       "topics": [
-        "engineering"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-10-07T17:45:34.000Z",
       "collected_at": "2026-10-08T09:32:30.700Z",
       "excerpt": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first on The GitHub Blog."
-    },
-    {
-      "id": "88e871d5a8d26738db20168d",
-      "feed_id": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Multimodal open d1 decision models for the edge",
-      "original_url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-07T16:54:33.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "ab59c26010b6f11d5b242997",
-      "feed_id": "01M49SJF5QT2EPN5CTQ3C99EZW",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
-      "original_url": "https://blog.cloudflare.com/agentic-security-operations/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-07T16:30:36.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts."
-    },
-    {
-      "id": "67f5f61696a2949df2730f40",
-      "feed_id": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-      "original_url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-07T12:45:31.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
     },
     {
       "id": "9ddb77314617db92b6c931ec",
@@ -75,28 +43,12 @@
       "original_url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
       "source_language": "en",
       "topics": [
-        "engineering"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-10-06T20:57:56.000Z",
       "collected_at": "2026-10-08T09:32:30.700Z",
       "excerpt": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog."
-    },
-    {
-      "id": "3d9c7800b1392d7453f4fac2",
-      "feed_id": "01M490D3EE2TBV2NFMN6FXMMQ8",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "The keys to the Internet change on October 11. Are you ready?",
-      "original_url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-06T17:50:11.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover."
     },
     {
       "id": "6f397884428e9f0f14f3f6fd",
@@ -107,44 +59,12 @@
       "original_url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
       "source_language": "en",
       "topics": [
-        "engineering"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-10-05T15:59:40.000Z",
       "collected_at": "2026-10-08T09:32:30.700Z",
       "excerpt": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub Blog."
-    },
-    {
-      "id": "44b03140de4a0c7b4a97d314",
-      "feed_id": "01M45M6M9H2C1A45G0S8EC3KW9",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Everything we launched during Birthday Week 2026",
-      "original_url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-05T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped."
-    },
-    {
-      "id": "9a1667b7b376f49f62401c68",
-      "feed_id": "01M40C00BDZBKANZ5QVXW0AD7X",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "One year later: the power of 1.1.1.1 interns",
-      "original_url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-05T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it."
     },
     {
       "id": "bd1136d0fcfd6f1357de280a",
@@ -155,7 +75,7 @@
       "original_url": "https://huggingface.co/blog/microsoft/thinkingbox",
       "source_language": "en",
       "topics": [
-        "ai"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-10-03T22:56:48.000Z",
@@ -163,52 +83,20 @@
       "excerpt": ""
     },
     {
-      "id": "cd838e82df4db660bfbd321f",
-      "feed_id": "01M3XHCB64KZ1NTN3N83GY590B",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "8 major updates to Cloudflare Observability",
-      "original_url": "https://blog.cloudflare.com/one-observability-platform/",
+      "id": "7b7af57df070d90c2c415773",
+      "feed_id": "tag:github.com,2008:Repository/83821669/2.6.0rc1",
+      "source_id": "qiskit",
+      "source_name": "Qiskit Releases",
+      "original_title": "2.6.0rc1",
+      "original_url": "https://github.com/Qiskit/qiskit/releases/tag/2.6.0rc1",
       "source_language": "en",
       "topics": [
-        "infrastructure"
+        "quantum-programming"
       ],
       "kind": "news",
-      "published_at": "2026-10-02T18:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing."
-    },
-    {
-      "id": "f947e9010dad4080ff0c8d54",
-      "feed_id": "01M3XKBJCTDTMBBCNNHA141F04",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
-      "original_url": "https://blog.cloudflare.com/streamline/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-02T16:13:45.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine."
-    },
-    {
-      "id": "e81b1dea7ce0fb42c9785562",
-      "feed_id": "https://huggingface.co/blog/allenai/astabrief",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "original_url": "https://huggingface.co/blog/allenai/astabrief",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-02T15:19:50.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
+      "published_at": "2026-10-02T21:05:36.000Z",
+      "collected_at": "2026-10-09T10:26:26.280Z",
+      "excerpt": "Qiskit 2.6.0rc1"
     },
     {
       "id": "afd517ff06180871c64e1a91",
@@ -219,140 +107,12 @@
       "original_url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
       "source_language": "en",
       "topics": [
-        "engineering"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-10-02T15:00:00.000Z",
       "collected_at": "2026-10-08T09:32:30.700Z",
       "excerpt": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog."
-    },
-    {
-      "id": "172a27cefb08cdf831d10db9",
-      "feed_id": "01M3XM9KVCRB6JKE07Q88EPGD2",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Introducing Web Search API via AI Gateway",
-      "original_url": "https://blog.cloudflare.com/introducing-web-search-api/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-02T13:28:10.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings."
-    },
-    {
-      "id": "3a7c567dce310cad1a1ba208",
-      "feed_id": "01M3T5GMDCTRDCS7CFJSMSJ2TS",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "2026 Birthday week: network performance update",
-      "original_url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-02T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy."
-    },
-    {
-      "id": "5685295cd7d17a2f4c1a32ab",
-      "feed_id": "01M3WEQR3N79CDBSMHD5V067HA",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
-      "original_url": "https://blog.cloudflare.com/protected-quick-tunnels/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-02T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side."
-    },
-    {
-      "id": "6055c182a46aa56131d25a09",
-      "feed_id": "01M3XD0M307DCDJ5QYA2RFTW87",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-      "original_url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-02T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next."
-    },
-    {
-      "id": "67a3a49e3f584ae796d3c44d",
-      "feed_id": "01M3XE7G2V6JJXPKX92B1D4080",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Introducing Cloudflare Traces: follow requests through our entire platform",
-      "original_url": "https://blog.cloudflare.com/cloudflare-tracing/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-02T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack."
-    },
-    {
-      "id": "c1771d11cf4029d4cbbec990",
-      "feed_id": "01M3W899F5N6P98MYP180WJMS4",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Building for good: How civil society organizations are automating on Cloudflare",
-      "original_url": "https://blog.cloudflare.com/civil-society-automation/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-02T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare."
-    },
-    {
-      "id": "c59c9381120f201a20f49801",
-      "feed_id": "01M3WNK9KTV3615MEM25RN3E4H",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Follow the thread: a new dashboard to investigate account abuse",
-      "original_url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-02T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse."
-    },
-    {
-      "id": "dca4102c0cfdbd9d5d50dd1c",
-      "feed_id": "01M3WRXHGNF2ZH02N0GWY6FHVV",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
-      "original_url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-02T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products."
     },
     {
       "id": "56c490db040147f1def4aa82",
@@ -363,28 +123,12 @@
       "original_url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "source_language": "en",
       "topics": [
-        "ai"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-10-02T04:01:31.000Z",
       "collected_at": "2026-10-08T09:32:34.474Z",
       "excerpt": ""
-    },
-    {
-      "id": "c0a0a5f5affd26928d0fd340",
-      "feed_id": "01M3TJPSZAN4TKGKX6HWSNQWEP",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
-      "original_url": "https://blog.cloudflare.com/clef-decision-models/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-01T15:34:02.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers to fine-tune decision models using their own data."
     },
     {
       "id": "a0c03d16e7252acebfcdd435",
@@ -395,108 +139,12 @@
       "original_url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
       "source_language": "en",
       "topics": [
-        "engineering"
+        "software-engineering"
       ],
       "kind": "news",
       "published_at": "2026-10-01T15:07:16.000Z",
       "collected_at": "2026-10-08T09:32:30.700Z",
       "excerpt": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around. The post 10 technical talks I’m excited about at GitHub Universe 2026 appeared first on The GitHub Blog."
-    },
-    {
-      "id": "874b063792be67e0d347fe4d",
-      "feed_id": "01M3TESBKM9T71XXXK1XMDP4PZ",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "One year later: Sovereign AI and the fight for choice",
-      "original_url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-01T13:04:19.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice."
-    },
-    {
-      "id": "32af5c2a7b663f670c739ce3",
-      "feed_id": "01M3T6X21KEDC6DH8GGSGV13HR",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Cloudflare OS: your company’s agent workspace, managed for you",
-      "original_url": "https://blog.cloudflare.com/managed-cloudflare-os/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-01T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few clicks."
-    },
-    {
-      "id": "37a106d7f924ad981fc301dc",
-      "feed_id": "01M3SQCB0ZE7ZPK6M13HGY41T3",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "We want you to build the next Git platform on Cloudflare",
-      "original_url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-01T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Cloudflare is hosting a competition to see who will build the next Git platform for an era of AI agents. Artifacts is in open beta, with Workers bindings, data jurisdiction controls, and event subscriptions for repository changes."
-    },
-    {
-      "id": "afab6c12648c7488e8faade0",
-      "feed_id": "01M3SXWQS68A0MY0GS33S6DJQJ",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Announcing Cloudflare K2: serverless event streams",
-      "original_url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-01T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log streams without the operational overhead of traditional broker clusters."
-    },
-    {
-      "id": "b17c5d0c007316a4ae29160b",
-      "feed_id": "01M3VEGEH98DJT6FTGDT1MHP5M",
-      "source_id": "cloudflare",
-      "source_name": "Cloudflare Blog",
-      "original_title": "Introducing Workers KV Instant — powered by Quicksilver",
-      "original_url": "https://blog.cloudflare.com/workers-kv-instant/",
-      "source_language": "en",
-      "topics": [
-        "infrastructure"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-01T13:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:37.979Z",
-      "excerpt": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API."
-    },
-    {
-      "id": "74c2ff7e2707d1f61043b51a",
-      "feed_id": "https://huggingface.co/blog/open-tts-leaderboard",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "original_url": "https://huggingface.co/blog/open-tts-leaderboard",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-30T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
     },
     {
       "id": "85a2ee1ccabf9baf31679dd5",
@@ -507,7 +155,7 @@
       "original_url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-transparency-state-policy-and-whats-ahead/",
       "source_language": "en",
       "topics": [
-        "engineering"
+        "software-engineering"
       ],
       "kind": "news",
       "published_at": "2026-09-29T15:00:00.000Z",
@@ -523,7 +171,7 @@
       "original_url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
       "source_language": "en",
       "topics": [
-        "ai"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-09-29T13:07:00.000Z",
@@ -539,7 +187,7 @@
       "original_url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
       "source_language": "en",
       "topics": [
-        "engineering"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-09-28T19:00:00.000Z",
@@ -555,7 +203,7 @@
       "original_url": "https://github.blog/open-source/git/highlights-from-git-2-56/",
       "source_language": "en",
       "topics": [
-        "engineering"
+        "software-engineering"
       ],
       "kind": "news",
       "published_at": "2026-09-28T17:23:33.000Z",
@@ -571,26 +219,10 @@
       "original_url": "https://huggingface.co/blog/Hcompany/holo4",
       "source_language": "en",
       "topics": [
-        "ai"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-09-28T09:44:05.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "eb916b5190e379580afd8a2b",
-      "feed_id": "https://huggingface.co/blog/rl-environments",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Welcome RL Environments to the hub",
-      "original_url": "https://huggingface.co/blog/rl-environments",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-28T00:00:00.000Z",
       "collected_at": "2026-10-08T09:32:34.474Z",
       "excerpt": ""
     },
@@ -603,7 +235,7 @@
       "original_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
       "source_language": "en",
       "topics": [
-        "engineering"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-09-25T18:00:00.000Z",
@@ -619,76 +251,12 @@
       "original_url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
       "source_language": "en",
       "topics": [
-        "engineering"
+        "software-engineering"
       ],
       "kind": "news",
       "published_at": "2026-09-25T15:00:00.000Z",
       "collected_at": "2026-10-08T09:32:30.700Z",
       "excerpt": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog."
-    },
-    {
-      "id": "689d78c6e007ab8e2c4f1996",
-      "feed_id": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Transformers now runs llama.cpp quants",
-      "original_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-22T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "6b3083011aeb49b1cc1d670c",
-      "feed_id": "https://huggingface.co/blog/omlx",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
-      "original_url": "https://huggingface.co/blog/omlx",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-22T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "e9f63aa1f7aaa02f4024a141",
-      "feed_id": "https://huggingface.co/blog/evaleval-aisi",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-      "original_url": "https://huggingface.co/blog/evaleval-aisi",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-22T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "693b3130e25cc8808f585a69",
-      "feed_id": "https://huggingface.co/blog/tokenizers-v1",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "tokenizers v1: encode, decode and scaling, measured",
-      "original_url": "https://huggingface.co/blog/tokenizers-v1",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-21T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
     },
     {
       "id": "a1d018f16fad79f97456f75b",
@@ -699,90 +267,10 @@
       "original_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
       "source_language": "en",
       "topics": [
-        "ai"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-09-15T16:00:44.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "075fed980e67c694db46ceda",
-      "feed_id": "https://huggingface.co/blog/gradio-workflow-1111",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "original_url": "https://huggingface.co/blog/gradio-workflow-1111",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-10T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "85052f9befba2c4e17fa41a5",
-      "feed_id": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-      "original_url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-10T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "fffbcba03b0b217e48932bf1",
-      "feed_id": "https://huggingface.co/blog/Hcompany/neomme",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "original_url": "https://huggingface.co/blog/Hcompany/neomme",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-03T13:13:48.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "a139f80b159295ada71d0ef0",
-      "feed_id": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "original_url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-03T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "b5500bc6503561c622e234c7",
-      "feed_id": "https://huggingface.co/blog/train-to-paint-with-code",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "original_url": "https://huggingface.co/blog/train-to-paint-with-code",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-03T00:00:00.000Z",
       "collected_at": "2026-10-08T09:32:34.474Z",
       "excerpt": ""
     },
@@ -795,170 +283,10 @@
       "original_url": "https://huggingface.co/blog/funes",
       "source_language": "en",
       "topics": [
-        "ai"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-09-03T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "ad90e6779ea3045b3b9ff330",
-      "feed_id": "https://huggingface.co/blog/allenai/benchmirt",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "original_url": "https://huggingface.co/blog/allenai/benchmirt",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-01T21:39:07.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "91dad0068ec24e5bcea7adc0",
-      "feed_id": "https://huggingface.co/blog/webgpu-kernels",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "original_url": "https://huggingface.co/blog/webgpu-kernels",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-09-01T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "4d3b17a749f42c957e926aa5",
-      "feed_id": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "original_url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-28T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "17177c100c9150295f9a783a",
-      "feed_id": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "original_url": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-26T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "d21068479952e40383665c65",
-      "feed_id": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Granite 4.2 LLMs: How They're Built",
-      "original_url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-25T15:14:14.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "f1c76f23a788b6884a2877cd",
-      "feed_id": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "original_url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-25T11:39:24.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "9b54a38fa1b1a3f1fc1fd60d",
-      "feed_id": "https://huggingface.co/blog/gradio-workflow-guide",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "original_url": "https://huggingface.co/blog/gradio-workflow-guide",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-25T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "966123ef613d7e9a038f2daf",
-      "feed_id": "https://huggingface.co/blog/pwc-search",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
-      "original_url": "https://huggingface.co/blog/pwc-search",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-21T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "e3ddd7a65cd3a566e91c6025",
-      "feed_id": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Measuring benchmark optimization in speech recognition",
-      "original_url": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-21T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "eab5285cfdebeb65a8ef35d4",
-      "feed_id": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-      "original_url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-20T16:52:57.000Z",
       "collected_at": "2026-10-08T09:32:34.474Z",
       "excerpt": ""
     },
@@ -971,7 +299,7 @@
       "original_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
       "source_language": "en",
       "topics": [
-        "ai"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-08-18T18:09:38.000Z",
@@ -979,52 +307,20 @@
       "excerpt": ""
     },
     {
-      "id": "d9524ab76177d5beaf9939ac",
-      "feed_id": "https://huggingface.co/blog/multi-vector-encoder",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "original_url": "https://huggingface.co/blog/multi-vector-encoder",
+      "id": "69e786d22b979516738573d8",
+      "feed_id": "tag:github.com,2008:Repository/83821669/2.5.2",
+      "source_id": "qiskit",
+      "source_name": "Qiskit Releases",
+      "original_title": "Qiskit  2.5.2",
+      "original_url": "https://github.com/Qiskit/qiskit/releases/tag/2.5.2",
       "source_language": "en",
       "topics": [
-        "ai"
+        "quantum-programming"
       ],
       "kind": "news",
-      "published_at": "2026-08-18T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "bf50ec5ce617ac83f0c8191a",
-      "feed_id": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "original_url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-17T19:46:21.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "bc290ba394fd0d9149bf5cc4",
-      "feed_id": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "State of Open Models: Summer 2026 Observations",
-      "original_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-14T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
+      "published_at": "2026-08-13T17:49:55.000Z",
+      "collected_at": "2026-10-09T10:26:26.280Z",
+      "excerpt": "Changelog Fixed Sum VF2Layout average errors in a deterministic order (#16732) (#16761) Fix add/sub optimizations including the same symbols (backport #16752) (#16759) Reimplement SymbolExpr::eval to be iterative (backport #16756) (#16758) dagcircuit: transfer DAG-level variables in substitute_node_with_dag (#15542) (#16744) Fix memory leak in Suzuki-Trotter"
     },
     {
       "id": "353217afc4f706b5339de407",
@@ -1035,58 +331,10 @@
       "original_url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
       "source_language": "en",
       "topics": [
-        "ai"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-08-13T17:16:04.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "57f8b7f378e9c39afee2b695",
-      "feed_id": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "What We Learned by Reproducing 2,200 papers from ICML",
-      "original_url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-13T00:00:00.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "249a5e1ede4df4c078023a6f",
-      "feed_id": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "original_url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-12T16:14:36.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
-    },
-    {
-      "id": "077b61a0fed02bcc2a083d29",
-      "feed_id": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Thinking of ACE? We Can Do It with Fewer Tokens",
-      "original_url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "source_language": "en",
-      "topics": [
-        "ai"
-      ],
-      "kind": "news",
-      "published_at": "2026-08-11T13:37:10.000Z",
       "collected_at": "2026-10-08T09:32:34.474Z",
       "excerpt": ""
     },
@@ -1099,7 +347,7 @@
       "original_url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
       "source_language": "en",
       "topics": [
-        "ai"
+        "agentic-engineering"
       ],
       "kind": "news",
       "published_at": "2026-08-10T16:25:36.000Z",
@@ -1107,20 +355,132 @@
       "excerpt": ""
     },
     {
-      "id": "815edfe6383208a72cfe7f7d",
-      "feed_id": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "source_id": "hugging-face",
-      "source_name": "Hugging Face",
-      "original_title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-      "original_url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "id": "f1eaf1885e4028cf276af48c",
+      "feed_id": "tag:github.com,2008:Repository/83821669/2.5.1",
+      "source_id": "qiskit",
+      "source_name": "Qiskit Releases",
+      "original_title": "Qiskit  2.5.1",
+      "original_url": "https://github.com/Qiskit/qiskit/releases/tag/2.5.1",
       "source_language": "en",
       "topics": [
-        "ai"
+        "quantum-programming"
       ],
       "kind": "news",
-      "published_at": "2026-08-10T10:05:36.000Z",
-      "collected_at": "2026-10-08T09:32:34.474Z",
-      "excerpt": ""
+      "published_at": "2026-07-23T17:09:41.000Z",
+      "collected_at": "2026-10-09T10:26:26.280Z",
+      "excerpt": "Changelog Fixed Fix serial_layers global phase copying (#16362) (#16647) Fix transpiler error message with routing_pass when layout_trials or swap_trials is set (#16637) (#16644) Fix deadlock in Optimize1qGatesDecomposition (#16592) (#16645) Clarify error message about gate missing from WrapAngleRegistry (#16633) (#16635) Fix sx resynthesis of negative angle"
+    },
+    {
+      "id": "541f3bb059f69c9ebc1a4706",
+      "feed_id": "tag:github.com,2008:Repository/83821669/2.5.0",
+      "source_id": "qiskit",
+      "source_name": "Qiskit Releases",
+      "original_title": "Qiskit  2.5.0",
+      "original_url": "https://github.com/Qiskit/qiskit/releases/tag/2.5.0",
+      "source_language": "en",
+      "topics": [
+        "quantum-programming"
+      ],
+      "kind": "news",
+      "published_at": "2026-07-02T18:51:37.000Z",
+      "collected_at": "2026-10-09T10:26:26.280Z",
+      "excerpt": "Changelog Added A multi-IR staged pass manager (#16418) Allow 32-bit registers in classical.expr system (#16449) Add C API for inspecting control flow instructions (#16179) Add register query functions to the C API (#16177) Var-based measurement experiments (#16273) Add C API for inspecting classical expressions (#16178) Use GateCount over Depth in Clifford+"
+    },
+    {
+      "id": "892c532a008affb0bb7b7753",
+      "feed_id": "tag:github.com,2008:Repository/83821669/2.5.0rc1",
+      "source_id": "qiskit",
+      "source_name": "Qiskit Releases",
+      "original_title": "Qiskit  2.5.0rc1",
+      "original_url": "https://github.com/Qiskit/qiskit/releases/tag/2.5.0rc1",
+      "source_language": "en",
+      "topics": [
+        "quantum-programming"
+      ],
+      "kind": "news",
+      "published_at": "2026-06-18T21:16:53.000Z",
+      "collected_at": "2026-10-09T10:26:26.280Z",
+      "excerpt": "Changelog Added A multi-IR staged pass manager (#16418) Allow 32-bit registers in classical.expr system (#16449) Add C API for inspecting control flow instructions (#16179) Add register query functions to the C API (#16177) Var-based measurement experiments (#16273) Add C API for inspecting classical expressions (#16178) Use GateCount over Depth in Clifford+"
+    },
+    {
+      "id": "db4d6720595d054abfd534a1",
+      "feed_id": "tag:github.com,2008:Repository/83821669/2.4.2",
+      "source_id": "qiskit",
+      "source_name": "Qiskit Releases",
+      "original_title": "Qiskit  2.4.2",
+      "original_url": "https://github.com/Qiskit/qiskit/releases/tag/2.4.2",
+      "source_language": "en",
+      "topics": [
+        "quantum-programming"
+      ],
+      "kind": "news",
+      "published_at": "2026-06-12T17:39:03.000Z",
+      "collected_at": "2026-10-09T10:26:26.280Z",
+      "excerpt": "Changelog Fixed Fix stack-overflow segfault in OpenQASM 2 expression parsers (#16422) Fix MultiplierGate truncated result decomposition (#16394) (#16399) Fix CommutationChecker for controlled rotation gates (backport #16337) (#16395) Fix redundant unit numerator in pi_check pi fractions (#16175) (#16358) Fix composing virtual permutation layouts for ElidePer"
+    },
+    {
+      "id": "a6badff7724beca608d0a17f",
+      "feed_id": "tag:github.com,2008:Repository/83821669/1.4.6",
+      "source_id": "qiskit",
+      "source_name": "Qiskit Releases",
+      "original_title": "Qiskit  1.4.6",
+      "original_url": "https://github.com/Qiskit/qiskit/releases/tag/1.4.6",
+      "source_language": "en",
+      "topics": [
+        "quantum-programming"
+      ],
+      "kind": "news",
+      "published_at": "2026-06-12T17:37:39.000Z",
+      "collected_at": "2026-10-09T10:26:26.280Z",
+      "excerpt": "Changelog Fixed Fix stack-overflow segfault in OpenQASM 2 expression parsers (#16423)"
+    },
+    {
+      "id": "76e2c7e4eb910c7c445afc4d",
+      "feed_id": "tag:github.com,2008:Repository/83821669/2.4.1",
+      "source_id": "qiskit",
+      "source_name": "Qiskit Releases",
+      "original_title": "Qiskit  2.4.1",
+      "original_url": "https://github.com/Qiskit/qiskit/releases/tag/2.4.1",
+      "source_language": "en",
+      "topics": [
+        "quantum-programming"
+      ],
+      "kind": "news",
+      "published_at": "2026-04-24T19:17:49.000Z",
+      "collected_at": "2026-10-09T10:26:26.280Z",
+      "excerpt": "Changelog Fixed Fix QPY loading delay integers durations incorrectly (#16076) (#16083) Fix panic in RemoveIdentityEquivalent with ParameterVector global phase (#16054) (#16055)"
+    },
+    {
+      "id": "99b73ebe7cd41c7ca126a85d",
+      "feed_id": "tag:github.com,2008:Repository/83821669/2.4.0",
+      "source_id": "qiskit",
+      "source_name": "Qiskit Releases",
+      "original_title": "Qiskit  2.4.0",
+      "original_url": "https://github.com/Qiskit/qiskit/releases/tag/2.4.0",
+      "source_language": "en",
+      "topics": [
+        "quantum-programming"
+      ],
+      "kind": "news",
+      "published_at": "2026-04-17T14:29:34.000Z",
+      "collected_at": "2026-10-09T10:26:26.280Z",
+      "excerpt": "Release notes: https://quantum.cloud.ibm.com/docs/en/api/qiskit/release-notes/2.4 Changelog Added Add safe Python-extension module C API headers (#15762) Add qk_circuit_draw function to the C API (#15361) New function to negate expressions (#15447) Add runtime-version checking qk_api_version (#15831) Add barrier_label_len option to circuit drawers (#15776) E"
+    },
+    {
+      "id": "d585d7cb3529bef46d256910",
+      "feed_id": "tag:github.com,2008:Repository/83821669/2.4.0rc3",
+      "source_id": "qiskit",
+      "source_name": "Qiskit Releases",
+      "original_title": "Qiskit  2.4.0rc3",
+      "original_url": "https://github.com/Qiskit/qiskit/releases/tag/2.4.0rc3",
+      "source_language": "en",
+      "topics": [
+        "quantum-programming"
+      ],
+      "kind": "news",
+      "published_at": "2026-04-07T19:50:37.000Z",
+      "collected_at": "2026-10-09T10:26:26.280Z",
+      "excerpt": "Changelog Fixed Rewrite QPY ParameterExpression handling in pure Polish form (#15934) (#15961) Correctly enforce matrix size check in CommutationChecker (#15933) (#15936)"
     }
   ],
   "sources": [
@@ -1129,21 +489,21 @@
       "name": "GitHub Blog",
       "status": "ok",
       "count": 10,
-      "last_success_at": "2026-10-08T09:33:02.169Z"
+      "last_success_at": "2026-10-09T10:26:15.625Z"
     },
     {
       "id": "hugging-face",
       "name": "Hugging Face",
       "status": "ok",
-      "count": 40,
-      "last_success_at": "2026-10-08T09:33:12.769Z"
+      "count": 8,
+      "last_success_at": "2026-10-09T10:26:19.668Z"
     },
     {
-      "id": "cloudflare",
-      "name": "Cloudflare Blog",
+      "id": "qiskit",
+      "name": "Qiskit Releases",
       "status": "ok",
-      "count": 20,
-      "last_success_at": "2026-10-08T09:33:25.099Z"
+      "count": 10,
+      "last_success_at": "2026-10-09T10:26:26.281Z"
     }
   ]
 }
