@@ -70,3 +70,10 @@ Prototype implementation: Next.js, three verified English feeds, persisted publi
 
 ## Editorial scope
 Quantum Programming, Software Engineering and Agentic Engineering only. Infrastructure is excluded for now. Qiskit releases populate quantum programming; GitHub covers software development and agents; Hugging Face is filtered for agent-related articles. Keyword classification is conservative and may miss relevant articles.
+
+## Source expansion — 2026-10-16
+The registry now includes 64 enabled RSS/Atom feeds after live parser validation, plus disabled candidates with failure evidence in docs/source-verification.json. Feed/project count is not a count of independent parent companies: some vendors maintain multiple distinct engineering publications or projects. Dedicated quantum SDKs and programming projects supply the quantum category; general quantum business news is excluded from this expansion.
+
+Collection uses six concurrent workers, isolated errors, deterministic registry ordering, an 8 MB per-response ceiling, a 15-second timeout and at most 40 entries per feed. The digest retains the existing 500-article cap, so not every enabled source will appear in the current page. A healthy source can yield no articles after relevance filtering. The source health report records this count.
+
+Optional source field `relevance: focused` keeps releases from explicitly agent-focused projects even when the title contains only a version number. The default `filtered` behavior retains conservative keyword filtering for broad AI publications. Registry remains the single source of source URLs.

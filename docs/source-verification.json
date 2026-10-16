@@ -1,0 +1,557 @@
+{
+  "checked_at": "2026-10-16T08:00:14.513Z",
+  "method": "Live HTTP fetch, RSS/Atom parse, at least one HTTP(S) linked titled item; 20-second timeout, 8 MB ceiling, 6 workers. Subsequent collection applies editorial relevance rules.",
+  "enabled": 64,
+  "results": [
+    {
+      "id": "hugging-face",
+      "status": "ok",
+      "bytes": 259536,
+      "items": 879,
+      "checked_at": "2026-10-16T07:58:57.311Z"
+    },
+    {
+      "id": "julia-evans",
+      "status": "ok",
+      "bytes": 244420,
+      "items": 20,
+      "checked_at": "2026-10-16T07:58:57.791Z"
+    },
+    {
+      "id": "martin-fowler",
+      "status": "ok",
+      "bytes": 150813,
+      "items": 30,
+      "checked_at": "2026-10-16T07:58:57.879Z"
+    },
+    {
+      "id": "simon-willison",
+      "status": "ok",
+      "bytes": 105241,
+      "items": 30,
+      "checked_at": "2026-10-16T07:58:58.655Z"
+    },
+    {
+      "id": "qiskit",
+      "status": "ok",
+      "bytes": 295423,
+      "items": 10,
+      "checked_at": "2026-10-16T07:58:58.811Z"
+    },
+    {
+      "id": "github-blog",
+      "status": "ok",
+      "bytes": 1526027,
+      "items": 10,
+      "checked_at": "2026-10-16T07:58:59.124Z"
+    },
+    {
+      "id": "dan-luu",
+      "status": "ok",
+      "bytes": 6600476,
+      "items": 128,
+      "checked_at": "2026-10-16T07:59:01.004Z"
+    },
+    {
+      "id": "the-pragmatic-engineer",
+      "status": "ok",
+      "bytes": 658461,
+      "items": 20,
+      "checked_at": "2026-10-16T07:59:01.421Z"
+    },
+    {
+      "id": "visual-studio-code",
+      "status": "ok",
+      "bytes": 39225,
+      "items": 43,
+      "checked_at": "2026-10-16T07:59:01.661Z"
+    },
+    {
+      "id": "hillel-wayne",
+      "status": "ok",
+      "bytes": 480915,
+      "items": 17,
+      "checked_at": "2026-10-16T07:59:01.901Z"
+    },
+    {
+      "id": "software-lead-weekly",
+      "status": "error",
+      "error": "HTTP 404",
+      "checked_at": "2026-10-16T07:59:02.411Z"
+    },
+    {
+      "id": "kotlin",
+      "status": "error",
+      "error": "HTTP 403",
+      "checked_at": "2026-10-16T07:59:03.230Z"
+    },
+    {
+      "id": "jetbrains",
+      "status": "error",
+      "error": "HTTP 403",
+      "checked_at": "2026-10-16T07:59:03.248Z"
+    },
+    {
+      "id": "microsoft-net",
+      "status": "ok",
+      "bytes": 192107,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:03.698Z"
+    },
+    {
+      "id": "typescript",
+      "status": "ok",
+      "bytes": 337068,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:03.739Z"
+    },
+    {
+      "id": "rust",
+      "status": "ok",
+      "bytes": 108722,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:04.501Z"
+    },
+    {
+      "id": "go",
+      "status": "ok",
+      "bytes": 353194,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:04.791Z"
+    },
+    {
+      "id": "python-insider",
+      "status": "ok",
+      "bytes": 24933,
+      "items": 50,
+      "checked_at": "2026-10-16T07:59:04.978Z"
+    },
+    {
+      "id": "deno",
+      "status": "ok",
+      "bytes": 179972,
+      "items": 250,
+      "checked_at": "2026-10-16T07:59:06.957Z"
+    },
+    {
+      "id": "react",
+      "status": "ok",
+      "bytes": 18181,
+      "items": 24,
+      "checked_at": "2026-10-16T07:59:07.626Z"
+    },
+    {
+      "id": "svelte",
+      "status": "ok",
+      "bytes": 1988650,
+      "items": 107,
+      "checked_at": "2026-10-16T07:59:08.186Z"
+    },
+    {
+      "id": "vercel",
+      "status": "ok",
+      "bytes": 3879193,
+      "items": 1676,
+      "checked_at": "2026-10-16T07:59:08.606Z"
+    },
+    {
+      "id": "vue",
+      "status": "ok",
+      "bytes": 253182,
+      "items": 15,
+      "checked_at": "2026-10-16T07:59:08.625Z"
+    },
+    {
+      "id": "bun",
+      "status": "ok",
+      "bytes": 89828,
+      "items": 180,
+      "checked_at": "2026-10-16T07:59:08.915Z"
+    },
+    {
+      "id": "angular",
+      "status": "ok",
+      "bytes": 78666,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:09.530Z"
+    },
+    {
+      "id": "mozilla-hacks",
+      "status": "ok",
+      "bytes": 282998,
+      "items": 20,
+      "checked_at": "2026-10-16T07:59:11.755Z"
+    },
+    {
+      "id": "igalia",
+      "status": "error",
+      "error": "No usable linked items",
+      "checked_at": "2026-10-16T07:59:12.086Z"
+    },
+    {
+      "id": "astro",
+      "status": "ok",
+      "bytes": 73708,
+      "items": 190,
+      "checked_at": "2026-10-16T07:59:12.100Z"
+    },
+    {
+      "id": "thoughtworks",
+      "status": "ok",
+      "bytes": 3477418,
+      "items": 2746,
+      "checked_at": "2026-10-16T07:59:12.352Z"
+    },
+    {
+      "id": "webkit",
+      "status": "ok",
+      "bytes": 386638,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:12.555Z"
+    },
+    {
+      "id": "infoq",
+      "status": "ok",
+      "bytes": 24673,
+      "items": 15,
+      "checked_at": "2026-10-16T07:59:13.146Z"
+    },
+    {
+      "id": "netflix-techblog",
+      "status": "ok",
+      "bytes": 239148,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:14.898Z"
+    },
+    {
+      "id": "slack-engineering",
+      "status": "ok",
+      "bytes": 229643,
+      "items": 8,
+      "checked_at": "2026-10-16T07:59:15.276Z"
+    },
+    {
+      "id": "uber-engineering",
+      "status": "error",
+      "error": "HTTP 406",
+      "checked_at": "2026-10-16T07:59:15.510Z"
+    },
+    {
+      "id": "dropbox-tech",
+      "status": "ok",
+      "bytes": 163946,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:16.195Z"
+    },
+    {
+      "id": "shopify-engineering",
+      "status": "ok",
+      "bytes": 247027,
+      "items": 432,
+      "checked_at": "2026-10-16T07:59:16.230Z"
+    },
+    {
+      "id": "gitlab",
+      "status": "ok",
+      "bytes": 201758,
+      "items": 20,
+      "checked_at": "2026-10-16T07:59:17.751Z"
+    },
+    {
+      "id": "stack-overflow",
+      "status": "ok",
+      "bytes": 37499,
+      "items": 40,
+      "checked_at": "2026-10-16T07:59:19.020Z"
+    },
+    {
+      "id": "meta-engineering",
+      "status": "ok",
+      "bytes": 206218,
+      "items": 9,
+      "checked_at": "2026-10-16T07:59:19.368Z"
+    },
+    {
+      "id": "linkedin-engineering",
+      "status": "error",
+      "error": "HTTP 404",
+      "checked_at": "2026-10-16T07:59:20.575Z"
+    },
+    {
+      "id": "spotify-engineering",
+      "status": "ok",
+      "bytes": 5929,
+      "items": 5,
+      "checked_at": "2026-10-16T07:59:20.754Z"
+    },
+    {
+      "id": "etsy-code-as-craft",
+      "status": "ok",
+      "bytes": 575147,
+      "items": 20,
+      "checked_at": "2026-10-16T07:59:20.824Z"
+    },
+    {
+      "id": "airbnb-engineering",
+      "status": "ok",
+      "bytes": 153268,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:21.937Z"
+    },
+    {
+      "id": "pinterest-engineering",
+      "status": "ok",
+      "bytes": 204648,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:21.943Z"
+    },
+    {
+      "id": "canva-engineering",
+      "status": "error",
+      "error": "HTTP 404",
+      "checked_at": "2026-10-16T07:59:24.043Z"
+    },
+    {
+      "id": "figma-engineering",
+      "status": "error",
+      "error": "Feed not recognized as RSS 1 or 2.",
+      "checked_at": "2026-10-16T07:59:24.778Z"
+    },
+    {
+      "id": "zalando-engineering",
+      "status": "ok",
+      "bytes": 2446550,
+      "items": 100,
+      "checked_at": "2026-10-16T07:59:24.851Z"
+    },
+    {
+      "id": "yelp-engineering",
+      "status": "ok",
+      "bytes": 15248,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:24.857Z"
+    },
+    {
+      "id": "doordash-engineering",
+      "status": "error",
+      "error": "No usable linked items",
+      "checked_at": "2026-10-16T07:59:25.068Z"
+    },
+    {
+      "id": "monzo-engineering",
+      "status": "error",
+      "error": "HTTP 404",
+      "checked_at": "2026-10-16T07:59:27.493Z"
+    },
+    {
+      "id": "jane-street",
+      "status": "ok",
+      "bytes": 75351,
+      "items": 100,
+      "checked_at": "2026-10-16T07:59:28.690Z"
+    },
+    {
+      "id": "openai",
+      "status": "ok",
+      "bytes": 789701,
+      "items": 1296,
+      "checked_at": "2026-10-16T07:59:29.049Z"
+    },
+    {
+      "id": "deliveroo-engineering",
+      "status": "ok",
+      "bytes": 95332,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:29.163Z"
+    },
+    {
+      "id": "llamaindex",
+      "status": "error",
+      "error": "HTTP 404",
+      "checked_at": "2026-10-16T07:59:30.024Z"
+    },
+    {
+      "id": "lilian-weng",
+      "status": "ok",
+      "bytes": 79640,
+      "items": 53,
+      "checked_at": "2026-10-16T07:59:33.190Z"
+    },
+    {
+      "id": "eugene-yan",
+      "status": "ok",
+      "bytes": 104927,
+      "items": 212,
+      "checked_at": "2026-10-16T07:59:33.467Z"
+    },
+    {
+      "id": "hamel-husain",
+      "status": "ok",
+      "bytes": 525997,
+      "items": 20,
+      "checked_at": "2026-10-16T07:59:33.589Z"
+    },
+    {
+      "id": "chip-huyen",
+      "status": "ok",
+      "bytes": 340690,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:33.734Z"
+    },
+    {
+      "id": "discord-engineering",
+      "status": "error",
+      "error": "The operation was aborted due to timeout",
+      "checked_at": "2026-10-16T07:59:36.232Z"
+    },
+    {
+      "id": "latent-space",
+      "status": "ok",
+      "bytes": 908927,
+      "items": 20,
+      "checked_at": "2026-10-16T07:59:36.556Z"
+    },
+    {
+      "id": "interconnects",
+      "status": "ok",
+      "bytes": 529494,
+      "items": 20,
+      "checked_at": "2026-10-16T07:59:36.792Z"
+    },
+    {
+      "id": "langchain",
+      "status": "error",
+      "error": "Invalid character in entity name\nLine: 0\nColumn: 2715\nChar: &",
+      "checked_at": "2026-10-16T07:59:36.827Z"
+    },
+    {
+      "id": "vellum",
+      "status": "error",
+      "error": "HTTP 404",
+      "checked_at": "2026-10-16T07:59:37.267Z"
+    },
+    {
+      "id": "sebastian-raschka",
+      "status": "ok",
+      "bytes": 2704963,
+      "items": 20,
+      "checked_at": "2026-10-16T07:59:37.563Z"
+    },
+    {
+      "id": "crewai",
+      "status": "ok",
+      "bytes": 45832,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:40.437Z"
+    },
+    {
+      "id": "microsoft-autogen",
+      "status": "ok",
+      "bytes": 145869,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:40.789Z"
+    },
+    {
+      "id": "smolagents",
+      "status": "ok",
+      "bytes": 252175,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:40.891Z"
+    },
+    {
+      "id": "pydantic-ai",
+      "status": "ok",
+      "bytes": 313105,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:40.909Z"
+    },
+    {
+      "id": "dspy",
+      "status": "ok",
+      "bytes": 682360,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:40.987Z"
+    },
+    {
+      "id": "qulacs",
+      "status": "ok",
+      "bytes": 39910,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:41.234Z"
+    },
+    {
+      "id": "amazon-braket-sdk",
+      "status": "ok",
+      "bytes": 7683,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:41.472Z"
+    },
+    {
+      "id": "qutip",
+      "status": "ok",
+      "bytes": 117061,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:41.559Z"
+    },
+    {
+      "id": "cuda-q",
+      "status": "ok",
+      "bytes": 325294,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:41.903Z"
+    },
+    {
+      "id": "quandela-perceval",
+      "status": "ok",
+      "bytes": 21307,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:41.912Z"
+    },
+    {
+      "id": "quantinuum-tket",
+      "status": "ok",
+      "bytes": 100561,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:42.501Z"
+    },
+    {
+      "id": "cirq",
+      "status": "ok",
+      "bytes": 1360907,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:42.881Z"
+    },
+    {
+      "id": "pennylane",
+      "status": "error",
+      "error": "HTTP 404",
+      "checked_at": "2026-10-16T07:59:43.323Z"
+    },
+    {
+      "id": "pasqal-pulser",
+      "status": "ok",
+      "bytes": 147567,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:44.486Z"
+    },
+    {
+      "id": "semantic-kernel",
+      "status": "ok",
+      "bytes": 193307,
+      "items": 10,
+      "checked_at": "2026-10-16T07:59:44.505Z"
+    }
+  ],
+  "collection": {
+    "checked_at": "2026-10-16T08:00:57.199Z",
+    "article_count": 500,
+    "represented_sources": 52,
+    "healthy": 64,
+    "errors": [],
+    "topics": {
+      "software-engineering": 312,
+      "agentic-engineering": 162,
+      "quantum-programming": 26
+    }
+  }
+}
