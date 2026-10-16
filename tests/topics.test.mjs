@@ -24,3 +24,10 @@ test('Quantum classification follows registry topics for any source ID',()=>{
  assert.deepEqual(classifyArticle(record,source),['quantum-programming']);
  assert.deepEqual(scopeArticles([record],[source])[0].topics,['quantum-programming']);
 });
+
+test('Focused agent project releases retain generic version titles, broad feeds stay filtered',()=>{
+  const article={original_title:'v1.2.3',excerpt:'Bug fixes',original_url:'https://example.com/releases/v1'};
+  const source={id:'agent-tool',topics:['agentic-engineering'],relevance:'focused'};
+  assert.deepEqual(classifyArticle(article,source),['agentic-engineering']);
+  assert.deepEqual(classifyArticle(article,{...source,relevance:'filtered'}),[]);
+});

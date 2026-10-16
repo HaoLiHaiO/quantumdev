@@ -28,11 +28,13 @@ Run collection before building: the dataset is prerendered, so a refreshed datas
 
 ## Sources
 
-Edit only config/sources.yaml. Publisher language is separate from future display languages. Current endpoints (GitHub Blog, Hugging Face and Qiskit Releases) were fetched and parsed successfully on 2026-10-09.
+Edit only config/sources.yaml. Publisher language is separate from future display languages. The registry contains 64 enabled feeds across the three editorial categories, verified with live HTTP fetches and RSS/Atom parsing on 2026-10-16. Failed candidates remain disabled. See docs/source-verification.json for per-source evidence; successful validation is a point-in-time check, not a future availability guarantee.
 
-The collector limits feed bytes/time/items, isolates failures, deduplicates stable IDs and URLs and atomically writes data/articles.json. Total failure keeps previous articles and reports source errors.
+Focused agent tooling sources set `relevance: focused` so release titles such as version numbers are retained. Broad AI feeds use the default keyword filtering.
 
-## Prototype limits
+The collector uses six concurrent workers and limits each feed to 8 MB, 15 seconds and 40 entries, isolates failures, deduplicates stable IDs and URLs and atomically writes data/articles.json. Total failure keeps previous articles and reports source errors.
+
+## Delivery limits
 
 Text is publisher-provided excerpt, not an AI summary. Sources are English; translation is not configured. No credentials are needed for the current feeds. Hosted preview, twice-daily refresh, generated summaries and research digest are pending. No production deployment has been performed.
 

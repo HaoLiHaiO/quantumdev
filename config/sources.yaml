@@ -2,10 +2,11 @@ schema_version: 1
 sources:
   - id: github-blog
     name: GitHub Blog
-    website: https://github.blog
+    website: https://github.blog/
     feed_url: https://github.blog/feed/
     source_language: en
-    topics: [software-engineering]
+    topics:
+      - software-engineering
     kind: news
     enabled: true
   - id: hugging-face
@@ -13,14 +14,706 @@ sources:
     website: https://huggingface.co/blog
     feed_url: https://huggingface.co/blog/feed.xml
     source_language: en
-    topics: [agentic-engineering]
+    topics:
+      - agentic-engineering
     kind: news
     enabled: true
   - id: qiskit
-    name: Qiskit Releases
-    website: https://github.com/Qiskit/qiskit
+    name: Qiskit
+    website: https://github.com/Qiskit/qiskit/releases
     feed_url: https://github.com/Qiskit/qiskit/releases.atom
     source_language: en
-    topics: [quantum-programming]
+    topics:
+      - quantum-programming
+    kind: news
+    enabled: true
+  - id: martin-fowler
+    name: Martin Fowler
+    website: https://martinfowler.com/feed.atom
+    feed_url: https://martinfowler.com/feed.atom
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: simon-willison
+    name: Simon Willison
+    website: http://simonwillison.net/
+    feed_url: https://simonwillison.net/atom/everything/
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+  - id: julia-evans
+    name: Julia Evans
+    website: https://jvns.ca/atom.xml
+    feed_url: https://jvns.ca/atom.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: dan-luu
+    name: Dan Luu
+    website: https://danluu.com/atom/index.xml
+    feed_url: https://danluu.com/atom.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: hillel-wayne
+    name: Hillel Wayne
+    website: https://www.hillelwayne.com/
+    feed_url: https://www.hillelwayne.com/index.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: the-pragmatic-engineer
+    name: The Pragmatic Engineer
+    website: https://newsletter.pragmaticengineer.com
+    feed_url: https://newsletter.pragmaticengineer.com/feed
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: software-lead-weekly
+    name: Software Lead Weekly
+    website: https://softwareleadweekly.com
+    feed_url: https://softwareleadweekly.com/feed
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: false
+  - id: jetbrains
+    name: JetBrains
+    website: https://blog.jetbrains.com
+    feed_url: https://blog.jetbrains.com/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: false
+  - id: visual-studio-code
+    name: Visual Studio Code
+    website: https://code.visualstudio.com/
+    feed_url: https://code.visualstudio.com/feed.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: microsoft-net
+    name: Microsoft .NET
+    website: https://devblogs.microsoft.com/dotnet/
+    feed_url: https://devblogs.microsoft.com/dotnet/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: python-insider
+    name: Python Insider
+    website: https://blog.python.org/
+    feed_url: https://blog.python.org/feeds/posts/default
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: rust
+    name: Rust
+    website: https://blog.rust-lang.org/
+    feed_url: https://blog.rust-lang.org/feed.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: go
+    name: Go
+    website: https://go.dev/blog/feed.atom
+    feed_url: https://go.dev/blog/feed.atom
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: kotlin
+    name: Kotlin
+    website: https://blog.jetbrains.com
+    feed_url: https://blog.jetbrains.com/kotlin/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: false
+  - id: typescript
+    name: TypeScript
+    website: https://devblogs.microsoft.com/typescript/
+    feed_url: https://devblogs.microsoft.com/typescript/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: react
+    name: React
+    website: https://react.dev/
+    feed_url: https://react.dev/rss.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: vercel
+    name: Vercel
+    website: https://vercel.com/atom
+    feed_url: https://vercel.com/atom
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: deno
+    name: Deno
+    website: https://deno.com/blog
+    feed_url: https://deno.com/feed
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: bun
+    name: Bun
+    website: https://bun.com
+    feed_url: https://bun.sh/rss.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: svelte
+    name: Svelte
+    website: https://svelte.dev/blog
+    feed_url: https://svelte.dev/blog/rss.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: vue
+    name: Vue
+    website: https://blog.vuejs.org
+    feed_url: https://blog.vuejs.org/feed.rss
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: angular
+    name: Angular
+    website: https://blog.angular.dev?source=rss----447683c3d9a3---4
+    feed_url: https://blog.angular.dev/feed
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: astro
+    name: Astro
+    website: https://astro.build/
+    feed_url: https://astro.build/rss.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: mozilla-hacks
+    name: Mozilla Hacks
+    website: https://hacks.mozilla.org/
+    feed_url: https://hacks.mozilla.org/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: webkit
+    name: WebKit
+    website: https://webkit.org
+    feed_url: https://webkit.org/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: igalia
+    name: Igalia
+    website: https://blogs.igalia.com
+    feed_url: https://blogs.igalia.com/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: false
+  - id: thoughtworks
+    name: Thoughtworks
+    website: https://www.thoughtworks.com/insights
+    feed_url: https://www.thoughtworks.com/rss/insights.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: infoq
+    name: InfoQ
+    website: https://www.infoq.com
+    feed_url: https://feed.infoq.com/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: spotify-engineering
+    name: Spotify Engineering
+    website: https://engineering.atspotify.com/
+    feed_url: https://engineering.atspotify.com/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: netflix-techblog
+    name: Netflix TechBlog
+    website: https://netflixtechblog.com?source=rss----2615bd06b42e---4
+    feed_url: https://netflixtechblog.com/feed
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: uber-engineering
+    name: Uber Engineering
+    website: https://www.uber.com
+    feed_url: https://www.uber.com/blog/engineering/rss/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: false
+  - id: slack-engineering
+    name: Slack Engineering
+    website: https://slack.engineering
+    feed_url: https://slack.engineering/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: dropbox-tech
+    name: Dropbox Tech
+    website: https://dropbox.tech
+    feed_url: https://dropbox.tech/feed
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: shopify-engineering
+    name: Shopify Engineering
+    website: https://shopify.engineering
+    feed_url: https://shopify.engineering/blog.atom
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: gitlab
+    name: GitLab
+    website: https://about.gitlab.com/blog
+    feed_url: https://about.gitlab.com/atom.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: stack-overflow
+    name: Stack Overflow
+    website: https://stackoverflow.blog/
+    feed_url: https://stackoverflow.blog/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: meta-engineering
+    name: Meta Engineering
+    website: https://engineering.fb.com/
+    feed_url: https://engineering.fb.com/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: linkedin-engineering
+    name: LinkedIn Engineering
+    website: https://engineering.linkedin.com
+    feed_url: https://engineering.linkedin.com/blog.rss
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: false
+  - id: discord-engineering
+    name: Discord Engineering
+    website: https://discord.com
+    feed_url: https://discord.com/blog/rss.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: false
+  - id: etsy-code-as-craft
+    name: Etsy Code as Craft
+    website: http://www.etsy.com/codeascraft/rss
+    feed_url: https://www.etsy.com/codeascraft/rss
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: pinterest-engineering
+    name: Pinterest Engineering
+    website: https://medium.com/pinterest-engineering?source=rss----4c5a5f6279b6---4
+    feed_url: https://medium.com/feed/pinterest-engineering
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: airbnb-engineering
+    name: Airbnb Engineering
+    website: https://medium.com/airbnb-engineering?source=rss----53c7c27702d5---4
+    feed_url: https://medium.com/feed/airbnb-engineering
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: figma-engineering
+    name: Figma Engineering
+    website: https://www.figma.com
+    feed_url: https://www.figma.com/blog/feed/atom.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: false
+  - id: canva-engineering
+    name: Canva Engineering
+    website: https://www.canva.dev
+    feed_url: https://www.canva.dev/blog/engineering/index.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: false
+  - id: doordash-engineering
+    name: DoorDash Engineering
+    website: https://careersatdoordash.com
+    feed_url: https://careersatdoordash.com/engineering-blog/feed/
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: false
+  - id: yelp-engineering
+    name: Yelp Engineering
+    website: https://engineeringblog.yelp.com/
+    feed_url: https://engineeringblog.yelp.com/feed.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: zalando-engineering
+    name: Zalando Engineering
+    website: https://engineering.zalando.com/
+    feed_url: https://engineering.zalando.com/atom.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: monzo-engineering
+    name: Monzo Engineering
+    website: https://monzo.com
+    feed_url: https://monzo.com/blog/engineering/feed.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: false
+  - id: deliveroo-engineering
+    name: Deliveroo Engineering
+    website: https://deliveroo.engineering/
+    feed_url: https://deliveroo.engineering/feed.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: jane-street
+    name: Jane Street
+    website: https://blog.janestreet.com
+    feed_url: https://blog.janestreet.com/feed.xml
+    source_language: en
+    topics:
+      - software-engineering
+    kind: news
+    enabled: true
+  - id: openai
+    name: OpenAI
+    website: https://openai.com/news
+    feed_url: https://openai.com/news/rss.xml
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+  - id: langchain
+    name: LangChain
+    website: https://blog.langchain.com
+    feed_url: https://blog.langchain.com/rss/
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: false
+  - id: llamaindex
+    name: LlamaIndex
+    website: https://www.llamaindex.ai
+    feed_url: https://www.llamaindex.ai/blog/rss.xml
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: false
+  - id: lilian-weng
+    name: Lilian Weng
+    website: https://lilianweng.github.io/
+    feed_url: https://lilianweng.github.io/index.xml
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+  - id: chip-huyen
+    name: Chip Huyen
+    website: https://huyenchip.com
+    feed_url: https://huyenchip.com/feed.xml
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+  - id: eugene-yan
+    name: Eugene Yan
+    website: https://eugeneyan.com
+    feed_url: https://eugeneyan.com/rss/
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+  - id: hamel-husain
+    name: Hamel Husain
+    website: https://hamel.dev/
+    feed_url: https://hamel.dev/index.xml
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+  - id: sebastian-raschka
+    name: Sebastian Raschka
+    website: https://magazine.sebastianraschka.com
+    feed_url: https://magazine.sebastianraschka.com/feed
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+  - id: latent-space
+    name: Latent Space
+    website: https://www.latent.space
+    feed_url: https://www.latent.space/feed
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+  - id: interconnects
+    name: Interconnects
+    website: https://www.interconnects.ai
+    feed_url: https://www.interconnects.ai/feed
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+  - id: vellum
+    name: Vellum
+    website: https://www.vellum.ai
+    feed_url: https://www.vellum.ai/blog/rss.xml
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: false
+  - id: pydantic-ai
+    name: Pydantic AI
+    website: https://github.com/pydantic/pydantic-ai/releases
+    feed_url: https://github.com/pydantic/pydantic-ai/releases.atom
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+    relevance: focused
+  - id: microsoft-autogen
+    name: Microsoft AutoGen
+    website: https://github.com/microsoft/autogen/releases
+    feed_url: https://github.com/microsoft/autogen/releases.atom
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+    relevance: focused
+  - id: crewai
+    name: CrewAI
+    website: https://github.com/crewAIInc/crewAI/releases
+    feed_url: https://github.com/crewAIInc/crewAI/releases.atom
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+    relevance: focused
+  - id: semantic-kernel
+    name: Semantic Kernel
+    website: https://devblogs.microsoft.com/agent-framework/
+    feed_url: https://devblogs.microsoft.com/semantic-kernel/feed/
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+    relevance: focused
+  - id: dspy
+    name: DSPy
+    website: https://github.com/stanfordnlp/dspy/releases
+    feed_url: https://github.com/stanfordnlp/dspy/releases.atom
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+    relevance: focused
+  - id: smolagents
+    name: Smolagents
+    website: https://github.com/huggingface/smolagents/releases
+    feed_url: https://github.com/huggingface/smolagents/releases.atom
+    source_language: en
+    topics:
+      - agentic-engineering
+    kind: news
+    enabled: true
+    relevance: focused
+  - id: pennylane
+    name: PennyLane
+    website: https://pennylane.ai
+    feed_url: https://pennylane.ai/blog/rss.xml
+    source_language: en
+    topics:
+      - quantum-programming
+    kind: news
+    enabled: false
+  - id: cirq
+    name: Cirq
+    website: https://github.com/quantumlib/Cirq/releases
+    feed_url: https://github.com/quantumlib/Cirq/releases.atom
+    source_language: en
+    topics:
+      - quantum-programming
+    kind: news
+    enabled: true
+  - id: qulacs
+    name: Qulacs
+    website: https://github.com/qulacs/qulacs/releases
+    feed_url: https://github.com/qulacs/qulacs/releases.atom
+    source_language: en
+    topics:
+      - quantum-programming
+    kind: news
+    enabled: true
+  - id: qutip
+    name: QuTiP
+    website: https://github.com/qutip/qutip/releases
+    feed_url: https://github.com/qutip/qutip/releases.atom
+    source_language: en
+    topics:
+      - quantum-programming
+    kind: news
+    enabled: true
+  - id: cuda-q
+    name: CUDA-Q
+    website: https://github.com/NVIDIA/cuda-quantum/releases
+    feed_url: https://github.com/NVIDIA/cuda-quantum/releases.atom
+    source_language: en
+    topics:
+      - quantum-programming
+    kind: news
+    enabled: true
+  - id: amazon-braket-sdk
+    name: Amazon Braket SDK
+    website: https://github.com/amazon-braket/amazon-braket-sdk-python/releases
+    feed_url: https://github.com/amazon-braket/amazon-braket-sdk-python/releases.atom
+    source_language: en
+    topics:
+      - quantum-programming
+    kind: news
+    enabled: true
+  - id: pasqal-pulser
+    name: Pasqal Pulser
+    website: https://github.com/pasqal-io/Pulser/releases
+    feed_url: https://github.com/pasqal-io/Pulser/releases.atom
+    source_language: en
+    topics:
+      - quantum-programming
+    kind: news
+    enabled: true
+  - id: quandela-perceval
+    name: Quandela Perceval
+    website: https://github.com/Quandela/Perceval/releases
+    feed_url: https://github.com/Quandela/Perceval/releases.atom
+    source_language: en
+    topics:
+      - quantum-programming
+    kind: news
+    enabled: true
+  - id: quantinuum-tket
+    name: Quantinuum TKET
+    website: https://github.com/Quantinuum/tket/releases
+    feed_url: https://github.com/Quantinuum/tket/releases.atom
+    source_language: en
+    topics:
+      - quantum-programming
     kind: news
     enabled: true
