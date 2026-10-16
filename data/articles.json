@@ -3,22 +3,6 @@
   "attempted_at": "2026-10-16T08:00:57.199Z",
   "articles": [
     {
-      "id": "f0e5fddf67c3af81d8f3f9a2",
-      "feed_id": "https://code.visualstudio.com/updates/v1_143",
-      "source_id": "visual-studio-code",
-      "source_name": "Visual Studio Code",
-      "original_title": "Visual Studio Code 1.143 (Insiders)",
-      "original_url": "https://code.visualstudio.com/updates/v1_143",
-      "source_language": "en",
-      "topics": [
-        "software-engineering"
-      ],
-      "kind": "news",
-      "published_at": "2026-10-21T17:00:00.000Z",
-      "collected_at": "2026-10-16T08:00:22.318Z",
-      "excerpt": "Learn what is new in Visual Studio Code Insiders, including the latest features and improvements. Read the full article"
-    },
-    {
       "id": "5711a6d6ed38b7fea16849ca",
       "feed_id": "tag:github.com,2008:Repository/818331198/clai2-bleeding",
       "source_id": "pydantic-ai",
@@ -1601,6 +1585,22 @@
       "published_at": "2026-10-13T12:00:00.000Z",
       "collected_at": "2026-10-16T08:00:33.435Z",
       "excerpt": "AWS has introduced an enhanced Custom Event Bus for Amazon EventBridge, targeting a problem that often emerges when event-driven architectures move beyond a single team or AWS account: the event infrastructure itself becomes fragmented. By Craig Risi"
+    },
+    {
+      "id": "b09dce902ce5a90858ed0eec",
+      "feed_id": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source_id": "infoq",
+      "source_name": "InfoQ",
+      "original_title": "Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026",
+      "original_url": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/",
+      "source_language": "en",
+      "topics": [
+        "agentic-engineering"
+      ],
+      "kind": "news",
+      "published_at": "2026-10-13T12:00:00.000Z",
+      "collected_at": "2026-10-16T08:00:33.435Z",
+      "excerpt": "Once AI is in production, code arrives faster than it can be reviewed, token costs rise, evals have to be good enough to act on, and agents need permissions and guardrails. QCon AI New York 2026 (December 15-16) has confirmed sessions from engineers sharing how they handle these constraints. By Artenisa Chatziou"
     }
   ],
   "sources": [

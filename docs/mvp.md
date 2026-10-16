@@ -82,3 +82,5 @@ Optional source field `relevance: focused` keeps releases from explicitly agent-
 After a successful refresh, keep the 100 newest articles after editorial filtering and deduplication. Unknown dates sort after known dates. On total source failure, preserve the previous dataset and successful timestamp.
 
 The frontend renders 20 matching cards initially. Load more adds up to 20 cards until all matches are visible; the button disappears at the end. Search and category filters operate on the full dataset, and changes reset the visible count to 20. This reduces rendered cards; all 100 records remain available client-side for filtering.
+
+Future-dated feed items are excluded before applying the 100-item cap, including cached entries on successful refreshes. Dates are not replaced with collection time. These items can be included on a later collection once their supplied date has passed.
