@@ -17,3 +17,10 @@ test('Migration removes disabled infrastructure and irrelevant ML, retaining rel
  assert.equal(scoped.length,2); assert.deepEqual(scoped.map(a=>a.topics[0]),['agentic-engineering','quantum-programming']);
  assert.deepEqual(scopeArticles(scoped,[software,agents,{id:'qiskit',enabled:true,topics:['quantum-programming']}]),scoped);
 });
+
+test('Quantum classification follows registry topics for any source ID',()=>{
+ const source={id:'another-quantum-publisher',enabled:true,topics:['quantum-programming']};
+ const record=article('New SDK release',source.id);
+ assert.deepEqual(classifyArticle(record,source),['quantum-programming']);
+ assert.deepEqual(scopeArticles([record],[source])[0].topics,['quantum-programming']);
+});
