@@ -52,3 +52,6 @@ Total feed failure retains all cached articles and the last successful update ti
 
 ## Digest size
 Successful collection retains the 100 newest eligible articles. The digest initially renders 20 cards; Load more reveals the next 20. Search and topic filters use all 100 records and reset the visible count. A total collection failure preserves the cached dataset.
+
+## About and navigation
+The shared header links to the digest and /about, a signed editorial by Alexandre Pinel. The author portrait is served locally from public/images. The digest includes a short introduction linking to the full story. Both pages share a footer with a native Back to top link; smooth scrolling respects prefers-reduced-motion.
