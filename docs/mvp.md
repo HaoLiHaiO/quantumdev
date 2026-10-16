@@ -74,6 +74,11 @@ Quantum Programming, Software Engineering and Agentic Engineering only. Infrastr
 ## Source expansion — 2026-10-16
 The registry now includes 64 enabled RSS/Atom feeds after live parser validation, plus disabled candidates with failure evidence in docs/source-verification.json. Feed/project count is not a count of independent parent companies: some vendors maintain multiple distinct engineering publications or projects. Dedicated quantum SDKs and programming projects supply the quantum category; general quantum business news is excluded from this expansion.
 
-Collection uses six concurrent workers, isolated errors, deterministic registry ordering, an 8 MB per-response ceiling, a 15-second timeout and at most 40 entries per feed. The digest retains the existing 500-article cap, so not every enabled source will appear in the current page. A healthy source can yield no articles after relevance filtering. The source health report records this count.
+Collection uses six concurrent workers, isolated errors, deterministic registry ordering, an 8 MB per-response ceiling, a 15-second timeout and at most 40 entries per feed. The digest retains the 100-article cap, so not every enabled source will appear in the current page. A healthy source can yield no articles after relevance filtering. The source health report records this count.
 
 Optional source field `relevance: focused` keeps releases from explicitly agent-focused projects even when the title contains only a version number. The default `filtered` behavior retains conservative keyword filtering for broad AI publications. Registry remains the single source of source URLs.
+
+## Digest size and progressive display — 2026-10-16
+After a successful refresh, keep the 100 newest articles after editorial filtering and deduplication. Unknown dates sort after known dates. On total source failure, preserve the previous dataset and successful timestamp.
+
+The frontend renders 20 matching cards initially. Load more adds up to 20 cards until all matches are visible; the button disappears at the end. Search and category filters operate on the full dataset, and changes reset the visible count to 20. This reduces rendered cards; all 100 records remain available client-side for filtering.

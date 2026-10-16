@@ -49,3 +49,6 @@ Use the header button to switch light/dark. The explicit preference is stored un
 Quantum Programming, Software Engineering and Agentic Engineering. Infrastructure is excluded. General Hugging Face ML posts are filtered out; agent-related content is selected by explicit keywords. Qiskit releases Atom was verified on 2026-10-09.
 
 Total feed failure retains all cached articles and the last successful update time, while recording the latest attempt and source errors. Quantum classification follows registry topics, independent of source IDs.
+
+## Digest size
+Successful collection retains the 100 newest eligible articles. The digest initially renders 20 cards; Load more reveals the next 20. Search and topic filters use all 100 records and reset the visible count. A total collection failure preserves the cached dataset.

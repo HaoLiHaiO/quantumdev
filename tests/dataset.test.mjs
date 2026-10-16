@@ -22,3 +22,13 @@ test('Partial success updates, deduplicates and applies current registry scope',
  assert.deepEqual(result.articles[0].topics,['quantum-programming']);
  assert.deepEqual(result.sources,health);
 });
+
+test('Successful refresh keeps the newest 100 regardless of incoming order and puts undated items last',()=>{
+ const articles=Array.from({length:125},(_,i)=>({...cached,id:String(i),source_id:source.id,original_url:`https://example.com/${i}`,published_at:new Date(Date.UTC(2026,0,1+i)).toISOString()}));
+ const undated={...articles[0],id:'undated',original_url:'https://example.com/undated',published_at:null};
+ const result=refreshDataset({articles:[]},[undated,...articles.reverse()],[source],[],1,now);
+ assert.equal(result.articles.length,100);
+ assert.equal(result.articles[0].id,'124');
+ assert.equal(result.articles[99].id,'25');
+ assert.ok(!result.articles.some(a=>a.id==='undated'));
+});
